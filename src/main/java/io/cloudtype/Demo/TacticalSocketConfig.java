@@ -1,11 +1,11 @@
-package com.example.baepo;
+package io.cloudtype.Demo;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 import org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor;
-import com.example.baepo.TacticalBoardHandler;
+import io.cloudtype.Demo.TacticalBoardHandler;
 
 @Configuration
 @EnableWebSocket
