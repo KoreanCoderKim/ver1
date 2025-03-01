@@ -1,4 +1,4 @@
-package com.example.baepo;
+package io.cloudtype.Demo;
 
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
